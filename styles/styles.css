@@ -14,13 +14,13 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 body {
     background: url("./imagenes/rebel.png");
     background-color: #252422;
     color: whitesmoke;
-    font-family: 'Space Grotesk', sans-serif;
 }
 
 .wrap {
@@ -135,13 +135,41 @@ body {
 
 .card {
     float: left;
-    width: 206px;
+    width: 217px;
     height: 306px;
     overflow: hidden;
-    margin: 40px;
+    margin: 31px;
     margin-top: 36px;
     border: 1px solid #1b1a1a;
     box-shadow: 1px 5px 24px -5px black;
     background-color: #1b1a1a;
     border-radius: 9px;
+    padding: 9px;
+}
+
+.card .icon {
+    display: block;
+    width: 100%;
+    height: 100px;
+    font-size: 27px;
+    line-height: 80px;
+    text-align: center;
+    margin: 0px auto;
+    text-shadow: 1px 2px 1px black;
+}
+
+.card .category {
+    width: 100%;
+    height: 50px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ec8056;
+    text-shadow: 1px 2px 1px black;
+}
+
+.card .description {
+    text-align: center;
+    color: #FFFCF2;
 }
