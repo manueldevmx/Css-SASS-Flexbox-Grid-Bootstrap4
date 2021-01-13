@@ -5,13 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+    <!--Css-->
     <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <!--Favicon-->
     <link rel="icon" type="favicon/x-icon" href="/Css-SASS-Flexbox-Grid-Bootstrap4/styles/imagenes/favicon_io/favicon.ico">
-
-
+    <!--owlscrip-->
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 
     <title>Manuel De la Cruz | Programador </title>
 </head>
@@ -53,7 +57,7 @@
 
             <div id="cards">
                 <div class="titulos">
-                    <h1>Servicios certificados en:</h1>
+                    <h1>Servicios certificados</h1>
                 </div>
 
 
@@ -64,13 +68,13 @@
                 </div>
 
                 <div class="card">
-                    <p class="icon">x</p>
+                    <p class="icon">S</p>
                     <h2 class="category"> Asistencia Tecnica </h2>
                     <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos consectetur quae, temporibus sed maiores!</p>
                 </div>
 
                 <div class="card">
-                    <p class="icon">K</p>
+                    <p class="icon">x</p>
                     <h2 class="category"> Ciberseguridad </h2>
                     <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos consectetur quae, temporibus sed maiores!</p>
                 </div>
@@ -84,6 +88,31 @@
         </section>
     </section>
 
+    <div class="clientes">
+        <div class="titulos">
+            <h1>Algunos clientes</h1>
+        </div>
+        <div class="contenedor">
+            <!-- Set up your HTML -->
+            <div class="owl-carousel">
+                <div> <img src="/styles/imagenes/logo.png"> </div>
+                <div> <img src="/styles/imagenes/Logoblanco.png"> </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+    <!--Scripts JavaScript-->
+    <script src="/owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel();
+        });
+    </script>
 </body>
+
 
 </html>
